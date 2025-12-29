@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemaps
 Sitemap: https://www.tpower2.net/sitemap_index.xml
-Sitemap: https://www.tpower2.net/sitemap.xml
-Sitemap: https://www.tpower2.net/image-sitemap.xml
