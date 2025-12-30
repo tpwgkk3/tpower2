@@ -1258,8 +1258,7 @@ button:not(:disabled) {
 	width: 100%;
 	text-align: center;
 	font-size: 14px;
-}
-<title>Login/Signup and Language Buttons</title>
+
 }
     .login-button {
       background-color: #ce0606;
@@ -1302,7 +1301,6 @@ button:not(:disabled) {
     a {
       text-decoration: none;
     }
-<title>注册按钮</title>
     .button {
       display: inline-block;
       background-color: #ce0606;
@@ -1326,5 +1324,19 @@ button:not(:disabled) {
       50% { opacity: 0.6; transform: scale(1.06); }
       100% { opacity: 1; transform: scale(1); }
     }
+ .button {
+      display: inline-block;
+      background-color: #ce0606; /* red-500 */
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
 
+    .button:hover {
+      background-color: #ef4444; /* red-600 */
+    }
  
