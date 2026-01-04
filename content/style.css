@@ -30,6 +30,11 @@ img {
 	animation: signupBlink 2.5s infinite;
 }
 
+@keyframes signupBlink {
+	0%, 50%, 100% { opacity: 1; }
+	25%, 75% { opacity: 0; }
+}
+
 #a6685618956 a {}
 
 #a6685618956 .container {
