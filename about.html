@@ -73,7 +73,14 @@
     }
 
     .button:hover {
-      background-color: #09506f;
+      background-color: #ef4444;
+    }
+
+    /* Blinking/Pulsing Animation */
+    @keyframes blink {
+      0% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(1.06); }
+      100% { opacity: 1; transform: scale(1); }
     }
 
     footer {
