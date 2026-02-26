@@ -30,6 +30,19 @@
       margin: 0;
     }
 
+    /* Header Banner */
+    .header-banner {
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+
+    .header-banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
     .container.about-page {
       max-width: 900px;
       margin: 40px auto;
@@ -47,16 +60,57 @@
       padding-left: 0;
     }
 
+    /* Button */
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background-color: #0b3b58;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background-color: #09506f;
+    }
+
     footer {
       margin-top: 40px;
       font-size: 13px;
       color: #666;
       text-align: center;
+      padding: 20px;
+    }
+
+    .footer-links a {
+      color: #666;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 
 <body>
+
+  <!-- Header Image -->
+  <div class="header-banner">
+    <a href="https://www.tpower2.net/signup.html">
+      <picture>
+        <source srcset="content/tpower2-header.gif 1x" media="(max-width: 468px)">
+        <img src="content/tpower2-header.gif"
+             alt="TPower2 Platform Header"
+             width="1280"
+             height="400"
+             loading="lazy">
+      </picture>
+    </a>
+  </div>
 
   <!-- Main Content -->
   <main class="container about-page">
@@ -92,7 +146,11 @@
       Operational processes are reviewed periodically to maintain fairness,
       stability, and responsible platform management.
     </p>
-<a href="https://www.tpower2.net/signup.html" class="button" target="_blank">👉Click Here To Register Tpower</a>
+
+    <a href="https://www.tpower2.net/signup.html" class="button" target="_blank">
+      👉 Click Here To Register TPower
+    </a>
+
   </main>
 
   <!-- Footer -->
