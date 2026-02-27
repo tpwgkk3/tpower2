@@ -387,21 +387,36 @@
          padding: 8px 16px;
          font-size: 14px;
          }
+         .left img:hover {
+         transform: scale(1.1);
+         transition: 0.2s;
+         }
          }
       </style>
    <link rel="stylesheet" href="chrome-extension://ihcjicgdanjaechkgeegckofjjedodee/app/content-style.css"></head>
    <body>
-      <nav class="navbar" style="padding: 10px 0px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;">
-         <div class="container" style="display: flex; align-items: center;">
-  <div style="flex: 1;"></div>
+<nav class="navbar" style="padding: 10px 0; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;">
+  <div class="container" style="display: flex; align-items: center; justify-content: space-between;">
 
-  <div class="logo" style="text-align: center;">
-    <img src="./files/logo.webp" alt="TPower Logo" style="height: 40px;">
+    <!-- Left: Home Icon -->
+    <div class="left" style="flex: 1;">
+      <a href="/" style="display: inline-block;">
+        <img src="/files/homepage.png" alt="Home" style="height: 30px; cursor: pointer;">
+      </a>
+    </div>
+
+    <!-- Center: Logo -->
+    <div class="logo" style="flex: 1; text-align: center;">
+      <img src="./files/logo.webp" alt="TPower Logo" style="height: 40px;">
+    </div>
+
+    <!-- Right: Empty (for balance or future button) -->
+    <div class="right" style="flex: 1; text-align: right;">
+      <!-- You can add login button here later -->
+    </div>
+
   </div>
-
-  <div style="flex: 1;"></div>
-</div>
-      </nav>
+</nav>
       <section class="hero">
          <div class="container">
             <div class="hero-image" style="
